@@ -1,0 +1,65 @@
+
+===================== New on 9 Jan 2016 =====================================
+r.ron@192.168.1.6:/home/gitrepositories/efinance.git			mvn clean install
+r.ron@192.168.1.6:/home/gitrepositories/kubota.git
+support@192.168.1.6:/home/gitrepositories/frameworks.git	    *** mvn clean install install
+
+---------
+
+
+link to copy m2
+\\192.168.1.3 \\192.168.1.3\data (e)\PisethIng\repository_new
+
+increase memory tomcat
+-Xmx1024m -Xmx1024m -XX:PermSize=512m -XX:MaxPermSize=512m
+
+change psw to 11
+update tu_sec_user set sec_usr_salt='UVYoabpbUiYdq4fJohRp',sec_usr_pwd='7f8bf92b306f2454844d5eadbc04bd09', sta_rec_code='ACTIV'
+
+================ templates ============== 
+192.168.7.36
+================ Honda khmer test ==============
+http://192.168.7.19:8080/efinance-fo/#!
+=================Loa Honda=================
+http://hondatest.gl-lao.com:8099/efinance-ra/#!
+username: admin_la
+password: 11
+=================Kubota Lao test===========
+https://kubotatest.gl-lao.com:8443/efinance-ra/#!financial.products
+username : broseth
+password: Broseth
+================Honda Myanma============
+http://192.168.9.119:8080/efinance-ra/#!users
+username: admin2
+password:11
+================Sola Khmer============
+http://192.168.7.7:8080/efinance-bo/#!lease.adjustments.report
+================Password=====
+GLL=> Unlock Template
+abcd56abcd=> Unlock report
+=============================honda kh==========
+local: seam_savy: 11
+---------
+local: ra: seam_savy: 11
+local: bo: bo_srey_sony: 11
+==========================Share DB=========
+192.168.7.28
+usr: efinance_team
+pwd: efinance
+==COTest===
+akra_sonisak: cute
+kim_sarat
+hum_saohorn
+11
+==
+http://localhost:9999/ewbservice/api/v1/oauth/token?grantType=password&username=akra_sonisak&password=11
+Authorize
+==========Autho2==
+=>Header
+Accept	: application/json
+Content-Type	:application/json
+Authorization: beare
+-------------------------------
+0-RSLT_MSG | Text
+1-RSLT_CD | T
+2-RSLT_DATA | List of T
